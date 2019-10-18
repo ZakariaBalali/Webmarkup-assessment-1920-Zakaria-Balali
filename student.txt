@@ -1,4 +1,4 @@
 student name: Zakaria Balali
 student class: INF1B
 student number: 636655
-Github repository: https://github.com/ZakariaBalali/Webmarkup-assesment-2019-Zakaria-Balali-Inf1B
+Github repository: https://github.com/ZakariaBalali/Webmarkup-assessment-1920-Zakaria-Balali
