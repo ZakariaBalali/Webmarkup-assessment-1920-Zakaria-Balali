@@ -1,13 +1,13 @@
 body {
 	font-family: Arial, Helvetica, sans-serif;
 	font-size: 11px;
-	color: #333333;
+	color: #ECE7E7;
 	background-image: url(../images/bg.jpg);
 	background-repeat: repeat;
 	margin: 0px 0px 0px 0px;
 }
 .page-header{
-	background: #2699FB;
+	background: #ECE7E7;
 	width: 1280px;
 	position: center;
 	font-size: 1rem;
@@ -15,7 +15,7 @@ body {
 
 
 .page-content{
-        color: #fff;
+        color: #000;
         font-size: 1.25rem;
         align-items: center;
         justify-content: center;
@@ -23,11 +23,11 @@ body {
 		width:1280px;
 		margin:0 auto;
 		position:relative;
-		background: #FFFFFF;
+		background: #C91C31;
 		
 }
-nav ul{
-		background: #2699FB;
+.main-nav ul{
+		background: #ECE7E7;
         color: #fff;
         font-size: 1.25rem;
         align-items: center;
@@ -35,45 +35,39 @@ nav ul{
 		display: flex;
         text-align: center;
 }	
-nav a { 
+.main-nav a{ 
 	color: #000000;
-	font: #FFFFFF;
-	background: #FFFFFF;
+	background: #d2cece;
     display: block;
-    padding: 10px 30px;
+    padding: 10px 20px;
 }
-nav a:hover{
-	background: #2699FB;
+.main-nav a:hover{
+	background: #ECE7E7;
 	color: #FFFFFF;
 }
 
-nav li {
-    display:inline;
+.main-nav li {
+    display: flex;
     padding: 10px 40px;
 }
 
 .Main {
 	width: 1280px;
 	margin: 0px auto;
-	margin-bottom: 100px;
-	background-color: #33A333;
+	margin-bottom: 20px;
+	background-color: #ECE7E7;
 	
 }
 .article1{
 	border: 1px solid black;
-	margin-right: 15px;
 }
-.article2{
-	border: 1px solid black;
-	margin-left: 15px;
-}
+
 .Main header{
 	text-align: left;
 	}
 .Main article{
 	display: flex;
 	color: #000000;
-	font: #FFFFFF;
 	background: #FFFFFF;
 	align-items: center;
     justify-content: center;		
@@ -82,47 +76,62 @@ nav li {
 }
 .Secondary {
 	width: 1280px;
-	height: 900px;
 	margin: 0px auto;
 	margin-bottom: 20px;
-	background-color: #33A333;
+	background-color: #ECE7E7;
 	align-items: baseline;
 }
+.Secondary header{
+	text-align: left;
+	}
 .Secondary article{
+	display: flex;
 	color: #000000;
-	font: #FFFFFF;
 	background: #FFFFFF;
 	align-items: center;
-	display: flex;
-    justify-content: center;	
+    justify-content: center;		
     text-align: center;
 	
 }
+
+.articleSecondary{
+	border: 1px solid black;
+}
+
 .Sport {
-	width: 940px;
+	width: 1280px;
 	margin: 0px auto;
 	margin-bottom: 20px;
-	background-color: #33A333;
+	background-color: #ECE7E7;
+	align-items: baseline;
 	
 }
+#SportsList li{
+	
+	display: flex;
+	background-color: #FFFFFF;
+	margin-bottom: 5px;
+	margin-right:35px;
+	border: 1px solid black;
+}
 .Referral{
-	width: 940px;
+	width: 1280px;
 	margin: 0px auto;
 	margin-bottom: 20px;
-	background-color: #33A333;
+	background-color: #ECE7E7;
 }
 .Contact {
-	width: 940px;
+	width: 1280px;
 	margin: 0px auto;
 	margin-bottom: 20px;
-	background-color: #33A333;
+	background-color: #ECE7E7;
 	
 }
 .footer {
-	width: 940px;
+	width: 1280px;
 	margin: 0px auto;
 	margin-bottom: 20px;
-	background-color: #000000;
+	background-color: #ECE7E7;
 	
 }	 	
 
