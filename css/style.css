@@ -2,7 +2,7 @@ body {
 	font-family: Arial, Helvetica, sans-serif;
 	font-size: 11px;
 	color: #ECE7E7;
-	background-image: url(../images/bg.jpg);
+	background-image: url(../img/bg.png);
 	background-repeat: repeat;
 	margin: 0px 0px 0px 0px;
 }
@@ -13,6 +13,9 @@ body {
 	font-size: 1rem;
 }
 
+img {
+	border: 1px solid black;
+}
 
 .page-content{
         color: #000;
@@ -79,7 +82,6 @@ body {
 	margin: 0px auto;
 	margin-bottom: 20px;
 	background-color: #ECE7E7;
-	align-items: baseline;
 }
 .Secondary header{
 	text-align: left;
@@ -106,12 +108,23 @@ body {
 	align-items: baseline;
 	
 }
+
 #SportsList li{
 	
 	display: flex;
 	background-color: #FFFFFF;
 	margin-bottom: 5px;
 	margin-right:35px;
+	border: 1px solid black;
+}
+
+.Referral article
+{
+	display: flex;
+	background-color: #FFFFFF;
+	margin-bottom: 5px;
+	margin-right:35px;
+	margin-left: 35px;
 	border: 1px solid black;
 }
 .Referral{
@@ -125,13 +138,12 @@ body {
 	margin: 0px auto;
 	margin-bottom: 20px;
 	background-color: #ECE7E7;
-	
 }
+
 .footer {
-	width: 1280px;
-	margin: 0px auto;
-	margin-bottom: 20px;
+	width: 1277px;
 	background-color: #ECE7E7;
+	border: 2px solid black;
 	
 }	 	
 
