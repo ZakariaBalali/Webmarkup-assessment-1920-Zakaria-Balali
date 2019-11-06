@@ -2,18 +2,22 @@ body {
 	font-family: Arial, Helvetica, sans-serif;
 	font-size: 11px;
 	color: #ECE7E7;
-	background-image: url(../img/bg.png);
-	background-repeat: repeat;
 	margin: 0px 0px 0px 0px;
 }
 .page-header{
 	background: #ECE7E7;
 	width: 1280px;
-	position: center;
 	font-size: 1rem;
 }
 
-img {
+.sportImage {
+	border: 1px solid black;
+}
+
+.mainImage {
+	border: 1px solid black;
+}
+.referralImage {
 	border: 1px solid black;
 }
 
@@ -68,13 +72,26 @@ img {
 .Main header{
 	text-align: left;
 	}
-.Main article{
+.articleMain1{
 	display: flex;
 	color: #000000;
 	background: #FFFFFF;
 	align-items: center;
     justify-content: center;		
     text-align: center;
+	border: 1px solid black;
+	margin-bottom: 4px;
+	
+}
+.articleMain2{
+	display: flex;
+	color: #000000;
+	background: #FFFFFF;
+	align-items: center;
+    justify-content: center;		
+    text-align: center;
+	border: 1px solid black;
+	margin-bottom: 4px;
 	
 }
 .Secondary {
@@ -146,4 +163,9 @@ img {
 	border: 2px solid black;
 	
 }	 	
+#background {
+    position: fixed;
+    bottom: 0;
+}
+
 
