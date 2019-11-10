@@ -60,10 +60,6 @@ h2{
 	border: 1px solid black;
 }
 
-#sportImage a:hover{
-	 background-color: #2CA58D59;
-}
-
 .mainImage {
 	border: 1px solid black;
 }
@@ -224,7 +220,26 @@ h2{
     position: fixed;
     bottom: 0;
 }
+/* Cookies */
+#cookie:focus + .cookies{
+  display: none;
+}
+.cookies{
+  color: #000000;
+  background-color: #AAAAAA;
+  bottom: 0;
+  width: 17.8%;
+  position: fixed;
+  z-index: 1;
+}
 
-
-
-
+.cookieCheck:hover{
+	background-color: #000000;
+	color: #FFFFFF;
+	
+}
+.cookieCheck{
+  background-color: #F5F5F5;
+  padding: 10px;
+ 
+}
